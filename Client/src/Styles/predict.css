@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+
+.flat-color-1 {
+    color: #000000;
+}
+
+.flat-color-2 {
+    color: #000000;
+}
+
+.flat-color-3 {
+    color: #000000;
+}
+
+.flat-color-4 {
+    color: #000000;
+}
+
+.br-0 {
+    border: none !important;
+}
+
+p {
+    color: black;
+    margin-top: 10px;
+}
+
+.black-rgba {
+    background-color: rgba(74, 99, 17, 0.15) !important;
+}
+
+body {
+    background-color: white;
+    display: table;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    width: 100%;
+}
+
+h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+}
+
+.content {
+    float: left;
+    padding: 1.875em;
+    width: 100%;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 800px; /* Adjust the max-width to your desired value */
+    margin: 0 auto; /* Center the card horizontally */
+}
+
+.card .box-title {
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: px 0;
+}
+
+.stat-widget-five {
+    min-height: 80px;
+}
+
+.stat-widget-five .stat-icon {
+    font-size: 50px;
+    line-height: 50px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+select{
+    border:none;
+    padding: 10px 20px;
+    border-radius:5px;
+  }
+  
+  select:focus{
+    outline:none;
+  }
+
+.stat-widget-five .stat-content {
+    margin-left: 100px;
+}
+
+.stat-widget-five .stat-text {
+    color: #455a64;
+    font-size: 20px;
+}
+
+.stat-widget-five .stat-heading {
+    color: #000000;
+    font-size: 14px;
+}
+
+@media (max-width: 1680px) {
+    .timeline li {
+        padding: 2px 0;
+    }
+}
+
+@media (max-width: 1368px) {
+    .stat-widget-one .stat-content {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content {
+        padding: 1.25em;
+    }
+
+    .card {
+        margin-bottom: 1.25em;
+    }
+
+    .card .card-header {
+        position: relative;
+    }
+
+    .card .card-header strong {
+        display: block;
+    }
+
+    .card .card-header small {
+        float: left;
+    }
+
+    .card .card-header .card-actions {
+        right: 0;
+        top: .75rem;
+        position: absolute;
+    }
+
+    .card-footer.bg-white.br-0.pl-5.pr-5.pt-0.pb-5 {
+        padding-bottom: 1.5em !important;
+        padding-left: 1em !important;
+        padding-right: 1em !important;
+    }
+}
+
+@media (max-width: 992px) {
+    [class*="col"] {
+        flex: 0 0 50%; /* Make columns smaller */
+        max-width: 50%; /* Make columns smaller */
+    }
+
+    .card {
+        padding: 1rem; /* Add padding to make the entire card clickable */
+    }
+}
+
+.dropdown-container {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .card-container {
+    float: left;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .image-container {
+    margin-bottom: 20px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: white;
+  }
+  
+
+  .left-section {
+    float: none; /* Remove float */
+    margin: 0 auto; /* Center the left section horizontally */
+    width: fit-content; /* Adjust width as needed */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Reduce box shadow */
+    padding: 20px; /* Adjust padding */
+    max-width: 600px; /* Adjust the max-width to your desired value */
+    margin: 0 auto; /* Center the card horizontally */
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px; /* Reduce font size */
+    color: #000;
+    text-align: center;
+}
+
+.card .box-title {
+    font-weight: 600; /* Adjust font weight */
+    font-size: 1.2em; /* Reduce font size */
+    padding: 10px 0; /* Adjust padding */
+}
+
+.stat-widget-five .stat-icon {
+    font-size: 40px; /* Reduce font size */
+    line-height: 40px; /* Adjust line height */
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.stat-widget-five .stat-content {
+    margin-left: 80px; /* Adjust margin */
+}
+
+.stat-widget-five .stat-text {
+    color: #455a64;
+    font-size: 16px; /* Reduce font size */
+}
+
+.stat-widget-five .stat-heading {
+    color: #000000;
+    font-size: 12px; /* Reduce font size */
+}
+
+select {
+    border: none;
+    padding: 8px 16px; /* Adjust padding */
+    border-radius: 5px;
+    font-size: 14px; /* Reduce font size */
+}
+
+select:focus {
+    outline: none;
+}
+
+.submit-button {
+    padding: 8px 16px; /* Adjust padding */
+    font-size: 16px; /* Reduce font size */
+}

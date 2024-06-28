@@ -1,0 +1,60 @@
+.container {
+  padding-top: 20px;
+}
+
+.hospital-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  color: white;
+  font-size: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  width: 1200px; /* Adjust the width as needed */
+  height: 40px;
+}
+
+.submit-button {
+  color: white;
+}
+
+
+.hospital-list {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.hospital-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  /* Removed overflow: hidden; */  /* Removed for content overflow */
+}
+
+.hospital-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.hospital-info {
+  padding: 15px;
+}
+
+.hospital-info h3 {
+  margin-top: 0;
+}
+
+.hospital-info p {
+  margin: 5px 0;
+}

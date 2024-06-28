@@ -1,0 +1,12 @@
+flask
+geopy
+flask_cors
+numpy
+cv2
+mysql
+requests
+dataclasses
+pymongo
+pandas
+openai
+-e
