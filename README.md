@@ -1,14 +1,14 @@
 # Project Name: Federated Disease Prediction System
 
 ## Overview
-This project is a Federated Disease Prediction System that utilizes deep learning models to predict diseases based on medical images. It aggregates multiple models from various sources to create global models for enhanced accuracy and robustness. Additionally, it features a search bar functionality where users can input a location to retrieve a list of the top 20 hospitals nearby for testing related to their predicted disease.
+This project is a Federated Disease Prediction System that utilizes deep learning models to predict diseases based on medical images. It aggregates multiple models from various sources to create global models for enhanced accuracy and robustness. Additionally, it features a search bar functionality where users can input a location to retrieve a list of the top 20 hospitals nearby for testing related to their predicted disease. This project also includes a chatbot (Openai GPT 3.5) that is capable of answering any medical related queries.
 
 ## Features
 1. **Model Aggregation:** Aggregates multiple models from different sources to create global models, improving prediction accuracy and reliability.
    
 2. **Location-Based Hospital Search:** Offers a search bar where users can input their location to receive a list of the top 20 hospitals nearby for testing related to the predicted disease.
 
-3. **Chatbot:** Integrated openai ChatGPT 3.5 by fine tuning it on custom data specialised on medical sector gathered from online sources like Data Search Engine (Google), Oxford, Wifipedia and Kaggle. This bot specialises in giving basic resolutions for any common disease and is capable on giving a generic solution on the medical queries asked. 
+3. **Chatbot:** Integrated Openai's GPT 3.5 by fine tuning it on custom data specialised on medical sector gathered from online sources like Data Search Engine (Google), Oxford, Wifipedia and Kaggle. This bot specialises in giving basic resolutions for any common disease and is capable on giving a generic solution on the medical queries asked. 
 
 4. **Dashboard:** A dashboard is shown to display how many people have gained from the project using a graph.
 
